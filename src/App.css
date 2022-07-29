@@ -1,0 +1,174 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 20px;
+  justify-content: center;
+}
+.nav {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar-img {
+  width: 160px;
+  @media(min-width:768px) {
+    box-sizing: border-box;
+    padding-left: 20px;
+  }
+}
+.searchbar-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+
+  @media(min-width:768px) {
+    box-sizing: border-box;
+    padding-left: 10px;
+  }
+}
+.searchbar {
+  background-color: white;
+  margin-right: 20px;
+
+} 
+.searchbar input {
+  padding: 10px;
+  box-shadow: 0 2px 2px (0,0,0,0.25);
+  border-radius: 3px;
+  border: none;
+} 
+.searchbar-btn button {
+  background-color: #0e6f9f;
+  margin-right: 20px;
+  border: none;
+  border-radius: 10px;
+  height: 44px;
+  color: white;
+  padding: 10px 12px;
+} 
+.pokemon-sale-container {
+  width: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pokemon-container {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9e9e9e;
+  text-align: center;
+  margin: 0px 5px 5px;
+}
+.pokemon-container :hover {
+  border-radius: 10px;
+  background-color: #fdfd96;
+}
+
+.pokemon-card {
+  width: 150px;
+  text-align: center;
+  margin: 0px;
+}
+.cart-pokemon {
+  box-sizing: border-box;
+  padding: 0 5px;
+  text-align: center;
+}
+.cart-container {
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #9e9e9e;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+  @media(min-width:768px) {
+    width: 100%;
+  }
+}
+.cart-product {
+  height: 150px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9e9e9e;
+}
+.cart-img {
+  width: 80px;
+  height: 80px;
+}
+.cart-desc {
+  height: 150px;
+  width: 150px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cart-btn-delete {
+  background-color: #ffc800;
+    border: none;
+    border-radius: 5px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #9e9e9e;
+  padding: 10px 20px;
+}
+.valor-atual {
+  color: red;
+}
+.valor-antigo {
+  text-decoration: line-through;
+}
+.text {
+  text-align: center;
+}
+.adicionar {
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #C4C4C4;
+  cursor: pointer;
+}
+.adicionar :hover {
+  border-radius: 10px;
+  background-color: #ff6565;
+}
+.finalizar {
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #C4C4C4;
+  cursor: pointer;
+}
+.finalizar :hover {
+  border-radius: 10px;
+  background-color: #ff6565;
+}
+.total {
+  display: flex;
+  justify-content: center;
+}
+.cart-buttons {
+  box-sizing: border-box;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
